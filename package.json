@@ -1,0 +1,14 @@
+{
+  "name": "tcp_logging_server",
+  "version": "1.0.0",
+  "description": "A simple tcp logging server. This server can receive tcp requests and will save each request into a new, uniquely named, file.",
+  "main": "tcp_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Farhad Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^2.0.1"
+  }
+}
